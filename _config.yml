@@ -1,0 +1,8 @@
+title: HTML, CSS, and Javascript for Web Developers
+description: Coursera | Full Stack Web Development with Rails
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
