@@ -1,31 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html >  
+    <style>
+        .titulo{
+            text-align: center;
+            font-size: 40px;
+            color: rgb(23, 151, 23);
+            font-family: Impact;
+            text-shadow: linen;
+        }
+        a:link , a:visited{
+            
+            text-align: center;
+            font-family: monospace;
+            font-size: 30px;
+            background-color: silver;
+            border: 2px solid black;
+            margin-bottom: 5px;
+            display: block;
+            width: 300px;
+            height: 50px;
+        } 
+        a:hover{
+            background-color: rgb(243, 219, 122);
+        }
+        .menu{
+            position: relative;
+            right: -500px;
+        }
+    </style>
     <head>
         <!--etiqueta que da el tipo de alfabeto que se usara -->
         <meta charset="utf-8">
-        <title>Estructuras de texto y algunas etiquetas </title>
+        <title>Menu </title>
     </head>
     <body>
-     <h1>Esta es la pagina principal, las lecciones se iran agregando y para buscarlas solo hay que añadir lec1 o lec2 etc....</h1>
-     <div>
+     <h1 class="titulo" >Menu Principal</h1>
+     <div class="menu">
          leccion 1: 
          <a href="lec1.html" title="leccion 1">lec1</a>
-         <br>
+         
          leccion 2: 
          <a href="lec2.html" title="leccion 2">lec2</a>
-         <br>
+         
          leccion 3: 
          <a href="lec3.html" title="leccion 3">lec3</a>
-         <br>
+         
          leccion 4: 
          <a href="lec4.html" title="leccion 4">lec4</a>
-         <br>
+        
          css 1:
          <a href="css1.html" title="css1">css1</a>
-         <br>
+        
          css 2:
          <a href="css2.html" title="css2">css2</a>
-         <br>
+         
      </div>
     </body>
 </html>
