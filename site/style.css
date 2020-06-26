@@ -1,0 +1,33 @@
+.titulo{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px black;
+    font-family: Impact;
+    text-shadow: linen;
+}
+a:link , a:visited{
+    
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    background-color: silver;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+a:hover{
+    background-color: rgb(243, 219, 122);
+}
+.menu{
+    text-align: center;
+    font-size: 25px;
+}
+body{
+    
+    background-image: url(https://images6.alphacoders.com/994/thumb-1920-994203.jpg);
+}
