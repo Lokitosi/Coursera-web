@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style3.css">
+        <title>Cajas</title>
+    </head>
+    <body>
+        <h1>Manejo de cajas y sus estilos</h1>
+        <p>
+            Los siguientes ejemplos mostraran como es que funciona el diseño de cajas , es por esto que cada caja tendra adentro las propiedades que tiene para que se pueda ver como afecta a el apartado grafico.
+        </p>
+        <hr>
+        <div>
+            <h2>Primera caja: content-box </h2>
+            <div id="basica">
+                width: 100 px;
+                border: 10 px solid white;
+                background-color: skyblue;
+                padding: 5px;
+                margin: 10px;
+            </div>
+            <p>Tamaño teorico: 100px de ancho , Tamaño que ocupa : 130px de ancho </p>
+
+            <h2>segunda caja: border-box </h2>
+            <div id="real">
+                width: 300px;
+                box-sizing: border-box;
+                color: darkcyan;
+                border: 10px black;
+                margin: 30px;
+            </div>
+            <p>Tamaño teorico: 300px de ancho , Tamaño que ocupa: 300px<br>
+                En este caso lo que sucedio es que el  contenido se adapta para ocupar 300px de ancho pero para que se muestre todo , se aumenta el tamaño del largo.
+            </p>
+
+            <h2>tercera caja: sin overflow</h2>
+            <div id="out">
+                width: 300px;
+                height: 50px;
+                box-sizing: border-box;
+                background-color: green;
+                border: 10px solid black;
+                margin: 50px;
+            </div>
+            <p>Tamaño teorico: 300x50, Tamaño que ocupa: 300x50<br>
+                Como se puede ver , el problema es que el contenido ocupa mas espacio que el que la caja le puede brindar, es por esto que se sale de la misma.
+            </p>
+
+            <h2>cuarta caja: overflow</h2>
+            <div id="over">
+                width: 300px;
+                height: 50px;
+                box-sizing: border-box;
+                background-color: yellowgreen;
+                border: 10px solid black;
+                margin: 50px;
+                overflow: auto; 
+                "este es un texto de relleno que tengo que escribir para que se ocupe mas tamaño del que se deberia y se pueda observar la verdadera funcion del overflow" 
+            </div>
+            <p>Tamaño teorico: 300x100, Tamaño que ocupa: 300x100<br>
+                En este ejmplo se aplico la transformacion overflow: auto , lo cual hizo que se añadiera una barra de scroll en la caja para que todo el contenido se pueda observar, tambien se puede ocultar con hiden o dejar barras fijas con scroll
+            </p>
+        </div>
+        <div>
+            para regresar al inicio click aqui:
+            <a href="index.html" title="pagina de inicio"> inicio</a>
+        </div>
+    </body>
+</html>
