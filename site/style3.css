@@ -18,6 +18,7 @@ h2{
 body{
     
     background-image: url(https://images6.alphacoders.com/994/thumb-1920-994203.jpg);
+    background-size: cover;
 }
 
 a:link , a:visited{
