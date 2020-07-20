@@ -1,0 +1,57 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(19, 19, 82);
+    font-family: 'Mukta', sans-serif;
+}
+
+#header-nav{
+    background-color: dodgerblue;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url(../img/EasyJobs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    
+}
+
+.navbar-brand h1{
+    font-family: 'Anton', sans-serif;
+    color: floralwhite;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px darkblue;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover ,.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p{
+    color: floralwhite;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+    
+}
+.navbar-brand span{
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.navbar-toggler{
+    background-color: red;
+}

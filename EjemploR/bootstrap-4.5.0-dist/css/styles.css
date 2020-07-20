@@ -5,7 +5,7 @@ body{
     font-family: 'Mukta', sans-serif;
 }
 
-#header-nav {
+#header-nav{
     background-color: dodgerblue;
     border-radius: 0;
     border: 0;
@@ -50,4 +50,8 @@ body{
 .navbar-brand span{
     margin-left: 5px;
     vertical-align: middle;
+}
+
+.navbar-toggler{
+    background-color: red;
 }
