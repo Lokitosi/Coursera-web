@@ -14,9 +14,9 @@ body{
 #logo-img {
   background: url(../img/EasyJobs.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 150px;
-  height: 150px;
+  height: 100px;
   margin: 10px 15px 10px 0;
 }
 
@@ -43,7 +43,7 @@ body{
 .navbar-brand p{
   color: floralwhite;
   text-transform: uppercase;
-  font-size: .7em;
+  font-size: 1em;
   margin-top: 15px;
   
 }
@@ -52,3 +52,87 @@ body{
   vertical-align: middle;
 }
 
+#nav-list{
+  margin-top: 10px;
+}
+
+#nav-list a{
+  color: #fff;
+  text-align: center;
+
+}
+
+#nav-list a:hover {
+  background: #74bbc0;
+}
+
+#nav-list a span{
+  font-size: 1.8em;
+}
+
+.glyphicon-user{
+  font-size: 38px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -30px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #logo-img {
+    background: url(../img/EasyJobs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand p{
+    font-size: 2vw;
+    margin-top: 5px;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1{
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  .navbar-brand p{
+    text-transform: uppercase;
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p span{
+    font-size: 20px;
+  }
+  #collapsable-nav a{
+    font-size: 2em;
+  }
+  #collapsable-nav a span{
+    font-size: 1em;
+    margin-right: 8px;
+  }
+}
