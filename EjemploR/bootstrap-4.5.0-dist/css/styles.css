@@ -53,5 +53,6 @@ body{
 }
 
 .navbar-toggler{
-    background-color: red;
+    color: rgba(0, 0, 0, 1);
+  border-color: rgba(0, 0, 0, 1);
 }
