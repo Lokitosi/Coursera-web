@@ -84,7 +84,7 @@ body{
 }
 
 .container .jumbotron{
-  box-shadow: 0 0 50px gray;
+  box-shadow: 0 0 50px rgb(3, 36, 99);
   border: 2px solid indigo;
 }
 
