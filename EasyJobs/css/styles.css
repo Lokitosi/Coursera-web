@@ -82,10 +82,59 @@ body{
   clear: both;
   margin-top: -30px;
 }
+/*footer */
+.panel-footer{
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
 
 .container .jumbotron{
   box-shadow: 0 0 50px rgb(3, 36, 99);
-  border: 2px solid indigo;
+  border: 2px solid rgb(44, 8, 92);
+}
+
+#menu-tile ,#special-tile, #map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid rgb(44, 8, 92);
+  overflow: hidden;
+
+}
+
+#menu-tile:hover, #special-tile:hover , #map-tile:hover {
+  box-shadow: 0 1px 5px 1px rgb(3, 36, 99);
+}
+#menu-tile{
+  background: url(../img/rnd3.jpg) no-repeat;
+  background-position: center;
+}
+
+#special-tile {
+  background: url(../img/rnd2.jpg) no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #special-tile span , #map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+ 
 }
 
 /********** Large devices only **********/
@@ -159,5 +208,9 @@ body{
   .container .jumbotron{
     margin-top: 30px;
     padding: 0px;
+  }
+  #menu-tile , #special-tile{
+    width: 360px;
+    margin: 0 auto 15px; 
   }
 }
