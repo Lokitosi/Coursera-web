@@ -7,9 +7,9 @@
     var primeraletra = names[i].charAt(0);
     
     if (primeraletra === "J"){
-      SpeakGoodBye.speak();
+      SpeakGoodBye.speak(names[i]);
     }else{
-      SpeakHello.speak();
+      SpeakHello.speak(names[i]);
     }
   }
 })();
