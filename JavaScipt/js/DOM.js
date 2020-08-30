@@ -1,5 +1,5 @@
 //console.log(document.getElementById("title"));
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("DOMContentLoaded", function (event) {
     console.log("cargo");
     function diHola(event){
         var nombre =(document.getElementById("nombre").value);
@@ -18,8 +18,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
     
         //añadir action listeners
-        document.querySelector("button").addEventListener("click",diHola());
+        
         //otra manera de hacerlo
         //document.querySelector("button").onclick = diHola;
     }
+    document.querySelector("button").addEventListener("click",diHola);
   });
