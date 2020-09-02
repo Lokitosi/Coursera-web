@@ -15,12 +15,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
             title += "Maquina,crack,mastodonte";
             //Se guarda el nuevo valor de title
             document.querySelector("#title").textContent = title;
-        }
-    
-        //añadir action listeners
-        
+        }   
+    }
+    //añadir action listeners
+    document.querySelector("button").addEventListener("click",diHola);
         //otra manera de hacerlo
         //document.querySelector("button").onclick = diHola;
-    }
-    document.querySelector("button").addEventListener("click",diHola);
+    document.querySelector("body").addEventListener("mousemove",
+    function(event){
+        if(event.shiftKey===true){
+            console.log("x :"+event.clientX+"y :"+event.clientY);
+        }  
+    })
   });
